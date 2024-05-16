@@ -9,7 +9,7 @@ AdvancedSqlSelectQueryBuilder& AdvancedSqlSelectQueryBuilder::AddWhereGreaterTha
 AdvancedSqlSelectQueryBuilder& AdvancedSqlSelectQueryBuilder::AddWhereGreaterThan(const std::map<std::string, std::string>& kv) noexcept {
 	AddWhere(kv);
 
-	auto start_index = columns.size() - kv.size();
+	auto start_index = conditional_operators.size() - kv.size();
 
 	std::fill(conditional_operators.begin() + start_index, conditional_operators.end(), ">");
 
@@ -25,7 +25,7 @@ AdvancedSqlSelectQueryBuilder& AdvancedSqlSelectQueryBuilder::AddWhereLessThan(c
 AdvancedSqlSelectQueryBuilder& AdvancedSqlSelectQueryBuilder::AddWhereLessThan(const std::map<std::string, std::string>& kv) noexcept {
 	AddWhere(kv);
 
-	auto start_index = columns.size() - kv.size();
+	auto start_index = conditional_operators.size() - kv.size();
 
 	std::fill(conditional_operators.begin() + start_index, conditional_operators.end(), "<");
 
