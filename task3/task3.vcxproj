@@ -20,16 +20,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\SqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder.cpp" />
     <ClCompile Include="source\SqlSelectQueryBuilder\SqlSelectQueryBuilder.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\SqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder.h" />
     <ClInclude Include="source\SqlSelectQueryBuilder\SqlSelectQueryBuilder.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{50467cba-22e8-4dac-860d-5c5619fb8b83}</ProjectGuid>
-    <RootNamespace>task1</RootNamespace>
+    <ProjectGuid>{ec4ee1cd-7af7-49ee-a5a7-e347a45bb8f2}</ProjectGuid>
+    <RootNamespace>task3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

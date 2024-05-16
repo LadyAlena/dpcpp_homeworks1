@@ -14,7 +14,7 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="SqlSelectQueryBuilder">
-      <UniqueIdentifier>{7434f7be-2576-403e-b281-451f6a1d250c}</UniqueIdentifier>
+      <UniqueIdentifier>{882b1a65-1d5a-41ce-acba-ff5c1b042637}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

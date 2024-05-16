@@ -14,7 +14,10 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="SqlSelectQueryBuilder">
-      <UniqueIdentifier>{7434f7be-2576-403e-b281-451f6a1d250c}</UniqueIdentifier>
+      <UniqueIdentifier>{9c79b9c7-d6a3-4b23-93fc-649fa0702233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder">
+      <UniqueIdentifier>{058feeab-05f6-4bde-a2a1-9a671fc6f1ee}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,10 +27,16 @@
     <ClCompile Include="source\SqlSelectQueryBuilder\SqlSelectQueryBuilder.cpp">
       <Filter>SqlSelectQueryBuilder</Filter>
     </ClCompile>
+    <ClCompile Include="source\SqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder.cpp">
+      <Filter>SqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\SqlSelectQueryBuilder\SqlSelectQueryBuilder.h">
       <Filter>SqlSelectQueryBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder.h">
+      <Filter>SqlSelectQueryBuilder\AdvancedSqlSelectQueryBuilder</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
